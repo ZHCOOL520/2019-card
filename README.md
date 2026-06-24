@@ -4,7 +4,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Language](https://img.shields.io/badge/language-HTML%2FCSS%2FJS-blue)
-![GitHub stars](https://img.shields.io/github/stars/your-username/2019-card?style=social)
+![GitHub stars](https://img.shields.io/github/stars/ZHCOOL520/2019-card?style=social)
 
 ---
 
@@ -23,7 +23,7 @@
 | 功能 | 说明 |
 |------|------|
 | 🟩 **健康码** | 高度还原真实健康码样式，大时间显示 + 二维码 + 核酸检测 + 疫苗接种 |
-| 🟢 **行程卡** | 还原通信大数据行程卡样式，大箭头 + 行程信息 + 服务商标识 |
+| 🟢 **行程卡** | 还原行程卡样式，大箭头 + 行程信息 |
 | 🔄 **Tab切换** | 一键切换健康码 / 行程卡，平滑过渡动画 |
 | 🎨 **颜色自定义** | 预设绿/黄/红/紫/蓝五种颜色，支持任意自定义颜色 |
 | ⏰ **自动时间** | 实时更新当前时间，精确到秒 |
@@ -72,7 +72,7 @@ node server.js
 3. Source 选择 `Deploy from a branch`
 4. Branch 选择 `main` 分支，目录选择 `/ (root)`
 5. 点击 Save，等待部署完成
-6. 访问 `https://your-username.github.io/2019-card/`
+6. 访问 `https://zhcool520.github.io/2019-card/`
 
 ### 方法二：使用其他平台
 
@@ -118,14 +118,13 @@ node server.js
 - 金色四角装饰的二维码
 - 背景斜向水印文字
 - 核酸检测 + 行程卡双卡片
-- 疫苗接种 / 服务热线列表
+- 疫苗接种状态
 
 ### 行程卡
-- 大标题"通信大数据行程卡"
+- 大标题"行程卡"
 - 波浪形顶部标签
 - 圆形大箭头图标
 - 行程信息展示
-- 底部服务商 + 客服热线
 
 ---
 
@@ -145,7 +144,7 @@ https://space.bilibili.com/1414910921?spm_id_from=333.1007.0.0
 let healthConfig = {
     navbarTitle: '健康码出示',
     name: '某某某',
-    location: '山东省临沂市',
+    location: '北京市',
     nucleicDays: '5',
     vaccine: '已全程接种',
     qrcodeUrl: '你的自定义链接'
@@ -153,10 +152,10 @@ let healthConfig = {
 
 // 行程卡配置
 let travelConfig = {
-    navbarTitle: '通信行程卡',
+    navbarTitle: '行程卡',
     phone: '185****7621',
     days: '7',
-    location: '山东省临沂市'
+    location: '北京市'
 };
 ```
 
@@ -202,7 +201,7 @@ let travelConfig = {
 ## 📮 联系方式
 
 - **作者B站**：[点击访问](https://space.bilibili.com/1414910921?spm_id_from=333.1007.0.0)
-- **项目地址**：[GitHub](https://github.com/your-username/2019-card)
+- **项目地址**：[GitHub](https://github.com/ZHCOOL520/2019-card)
 
 ---
 
